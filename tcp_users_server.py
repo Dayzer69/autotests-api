@@ -1,6 +1,5 @@
 import socket  # Импортируем модуль socket для работы с сетевыми соединениями
 
-
 def server():
     # Создаем TCP-сокет
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
