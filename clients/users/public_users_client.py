@@ -25,3 +25,5 @@ class PublicUsersClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post('/api/v1/users', json=request)
+
+
