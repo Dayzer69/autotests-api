@@ -10,13 +10,6 @@ class ExercisesListRequestDict(TypedDict):
     courseId: str
 
 
-class ExerciseInfoRequestDict(TypedDict):
-    """
-    Описание структуры запроса на получение информации по упражнению.
-    """
-    exerciseId: str
-
-
 class CreateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на создание упражнения.
