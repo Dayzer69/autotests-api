@@ -39,7 +39,7 @@ class CreateExerciseRequestSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     title: str
-    courseId: str = Field(alias='courseId')
+    course_id: str = Field(alias='courseId')
     max_score: int = Field(alias='maxScore')
     min_score: int = Field(alias='minScore')
     order_index: int = Field(alias='orderIndex')
