@@ -54,7 +54,7 @@ class UpdateExerciseRequestDict(TypedDict):
     minScore: int | None
     orderIndex: int | None
     description: str | None
-    estimatedTime: int | None
+    estimatedTime: str | None
 
 
 class ExercisesClient(APIClient):
