@@ -4,7 +4,7 @@ from tools import fakers
 
 # Создаём пользователя
 create_user_payload = {
-  "email": fakers.get_random_email(),
+  "email": fakers.fake.email(),
   "password": "password",
   "lastName": "Doe",
   "firstName": "Jonh",
