@@ -13,7 +13,7 @@ class CourseFixture(BaseModel):
 
 
 @pytest.fixture
-def course_client(function_user: UserFixture) -> CoursesClient:
+def courses_client(function_user: UserFixture) -> CoursesClient:
     return get_courses_client(function_user.authentication_user)
 
 

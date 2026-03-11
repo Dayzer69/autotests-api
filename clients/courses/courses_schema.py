@@ -74,3 +74,19 @@ class CreateCourseResponseSchema(BaseModel):
     Описание структуры ответа создания курса.
     """
     course: CourseSchema
+
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
+
+
