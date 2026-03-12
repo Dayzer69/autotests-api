@@ -33,6 +33,13 @@ class GetExerciseResponseSchema(BaseModel):
     exercise: ExerciseSchema
 
 
+class GetExercisesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка заданий.
+    """
+    exercises: list[ExerciseSchema]
+
+
 class ExercisesListRequestSchema(BaseModel):
     """
     Описание структуры запроса на получение списка упражнений.
@@ -76,3 +83,5 @@ class UpdateExerciseResponseSchema(BaseModel):
     """
 
     exercise: ExerciseSchema
+
+
