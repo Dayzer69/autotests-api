@@ -2,12 +2,15 @@ from clients.api_client import APIClient, Response
 from typing import TypedDict
 from clients.public_http_builder import get_public_http_client
 from clients.users.users_schema import UserSchema, CreateUserResponseSchema, CreateUserRequestSchema
+import allure
 
 
 class PublicUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users без авторизации
     """
+
+    @allure.step("Create user")
     def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Метод создаёт нового пользователя.

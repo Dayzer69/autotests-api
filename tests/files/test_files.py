@@ -103,7 +103,6 @@ class TestFiles:
 
         response = files_client.get_file_api('fake.request.id')
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
-        print(response.json())
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         assert_get_file_with_incorrect_file_id(response_data)
