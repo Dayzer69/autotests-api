@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE0OjIxOjQ5LjIwNDkwNiIsInVzZXJfaWQiOiJkNGUyOGU4ZC1hMDBjLTRjYjYtOTQ2ZS1mMDY1NjQ0OGU3Y2YifQ.2TloClPGaZvH9V8TUgNpOow5BmpT5ea_0462kQeLAlw' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center example information political point light girl.","courseId":"e4c22b2a-0b10-499c-b12f-f9fcc50b72c6","maxScore":71,"minScore":19,"orderIndex":78,"description":"Face oil catch just everybody share. Market nearly represent how call western outside scene. Decade store friend thank whether. Cell physical smile its company to chance.","estimatedTime":"7 weeks"}'

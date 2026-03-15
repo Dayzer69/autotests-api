@@ -5,6 +5,7 @@ from httpx import Response
 from clients.users.users_schema import UpdateUserRequestSchema, GetUserResponseSchema
 from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
+from config import settings
 
 
 

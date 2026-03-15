@@ -19,7 +19,7 @@ files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 
 # Загружаем файл
-create_file_request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
+create_file_request = CreateFileRequestSchema(upload_file=settings.test_data.image_png_file)
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE0OjIxOjQxLjEwMzA4MCIsInVzZXJfaWQiOiI1MGU1ODU3MS03YzQ1LTQ2YjEtYWMyNi00OGMzMjY5ZmJmZGQifQ.S-_M5N4cWwNd6CKMmTIwh4W_VeYuynnfRjJMZ_8oAzo' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Really shake memory bit news social.","maxScore":82,"minScore":17,"description":"Nation likely try guess possible structure whatever use. Like send red western do. Military inside because himself admit job.","estimatedTime":"4 weeks","previewFileId":"cd4a4445-532f-4425-85e5-1895e813be6c","createdByUserId":"50e58571-7c45-46b1-ac26-48c3269fbfdd"}'

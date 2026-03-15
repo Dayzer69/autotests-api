@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE0OjIxOjQ5LjIwNDkwNiIsInVzZXJfaWQiOiJkNGUyOGU4ZC1hMDBjLTRjYjYtOTQ2ZS1mMDY1NjQ0OGU3Y2YifQ.2TloClPGaZvH9V8TUgNpOow5BmpT5ea_0462kQeLAlw' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court everything wide we but.","maxScore":93,"minScore":14,"description":"Focus of issue allow they everybody health. Sister there want board worker community.\nDog gas author almost. Service school enter answer act push commercial.","estimatedTime":"5 weeks","previewFileId":"23a757b1-9c53-4c21-b506-c5e4592af929","createdByUserId":"d4e28e8d-a00c-4cb6-946e-f0656448e7cf"}'

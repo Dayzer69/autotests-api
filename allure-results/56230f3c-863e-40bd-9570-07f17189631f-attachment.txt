@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE1VDE0OjIxOjE2Ljc5MTI0MyIsInVzZXJfaWQiOiI0YWIwYzkwZS00NzE3LTQzYmItOTZhOS1lOGM0NzVmZjRhNDMifQ.6vFtBo5m_8e5KQbadlNQqupgDCntGyhyvyoGuo5RXBg' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Well method prove partner note.","maxScore":69,"minScore":23,"description":"Pass military grow never laugh. Others night ground face.\nFood carry may also. Size court series machine prepare modern wife. Know already friend manager spend respond religious.","estimatedTime":"6 weeks","previewFileId":"7b1c5e1a-abd0-4c8b-8e76-dbf2d6d2a758","createdByUserId":"4ab0c90e-4717-43bb-96a9-e8c475ff4a43"}'

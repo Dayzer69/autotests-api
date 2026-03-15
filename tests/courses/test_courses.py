@@ -17,6 +17,7 @@ from tools.assertions.base import assert_status_code
 from tools.assertions.courses import (assert_update_course_response, assert_get_courses_response,
                                       assert_create_course_response)
 from tools.assertions.schema import validate_json_schema
+from config import settings
 
 
 @pytest.mark.courses

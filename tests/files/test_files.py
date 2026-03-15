@@ -2,6 +2,7 @@ import pytest
 from http import HTTPStatus
 import allure
 
+from config import settings
 from allure_commons.types import Severity
 from fixtures.files import FileFixture
 from tools.allure.epics import AllureEpic
@@ -35,7 +36,7 @@ class TestFiles:
     @allure.title("Create file")
     @allure.severity(Severity.BLOCKER)
     def test_create_file(self, files_client: FilesClient):
-        request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
+        request = CreateFileRequestSchema(upload_file=settings.test_data.image_png_file)
         response = files_client.create_file_api(request)
         response_data = CreateFileResponseSchema.model_validate_json(response.text)
 

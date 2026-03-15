@@ -4,6 +4,7 @@ from tools.assertions.base import assert_equal
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema
 from tools.assertions.errors import assert_validation_error_response
 import allure
+from config import settings
 
 
 @allure.step("Check create file response")
@@ -16,7 +17,7 @@ def assert_create_files_response(request: CreateFileRequestSchema, response: Cre
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
 
-    expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
+    expected_url = f"{settings.http_client.client_url}static/{request.directory}/{request.filename}"
 
     assert_equal(str(response.file.url), expected_url, 'url')
     assert_equal(response.file.filename, request.filename, 'filename')
