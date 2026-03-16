@@ -1,6 +1,9 @@
 from clients.errors_schema import ValidationErrorSchema, ValidationErrorResponseSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 import allure
+from tools.logger import get_logger  # Импортируем функцию для создания логгера
+
+logger = get_logger("ERRORS_ASSERTIONS")
 
 
 @allure.step("Check validation error")
@@ -12,6 +15,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     :param expected: Лжидаемая ошибка.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check validation error")
     assert_equal(actual.type, expected.type, 'type')
     assert_equal(actual.input, expected.input, 'input')
     assert_equal(actual.context, expected.context, 'context')
@@ -28,6 +32,7 @@ def assert_validation_error_response(actual: ValidationErrorResponseSchema, expe
     :param expected: Ожидаемый ответ API.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check validation error response")
     assert_length(actual.details, expected.details, 'details')
 
     for index, detail in enumerate(expected.details):
@@ -45,6 +50,7 @@ def assert_internal_error_response(
     :param expected: Ожидаемый ответ API.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check internal error response")
     assert_equal(actual.details, expected.details, 'details')
 
 
@@ -55,5 +61,6 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     :param actual: Фуктический ответ.
     :raises AssertionError: Если фактический ответ не соответсвует ошибке "File not found"
     """
+    logger.info("Check file not found response")
     expected = InternalErrorResponseSchema(details='File not found')
     assert_internal_error_response(actual, expected)
