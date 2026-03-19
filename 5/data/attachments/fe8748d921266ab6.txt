@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjMwLjQzODk5NCIsInVzZXJfaWQiOiI1OTEyMDg0NS00YzdiLTQ4NzYtOGE2YS02MTExMTY3M2Y0MDEifQ.hsmFUQ5VzNuIvXmByX9E1iOr8KgI_pqTouy1F-T7pH8' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do receive anyone deal difficult challenge.","maxScore":95,"minScore":6,"description":"Reach while car certain central. Smile program something visit.\nGirl series sport every when. Fight also involve often seven successful work. Find nature employee sister sometimes.","estimatedTime":"9 weeks","previewFileId":"7a25fccd-45a9-4409-98ec-d0e4f14e6218","createdByUserId":"59120845-4c7b-4876-8a6a-61111673f401"}'

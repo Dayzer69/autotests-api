@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjI5Ljg0OTc4MiIsInVzZXJfaWQiOiJmNDRmMTUwYy1kNmYyLTQ0NmQtYWNkYy04Mjc5MWFjMWE0M2EifQ.Ozqv9tuSwSCQE30bRn6yvLxLYOmKz1iWxfJr0fKaoD8' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behind could training seem cover moment base.","maxScore":51,"minScore":21,"description":"Realize rate increase defense. Might quality exactly care build read push. Drop fight thousand music thousand. Those throw purpose why box with.","estimatedTime":"1 weeks","previewFileId":"c4134b2d-c860-48f3-b9e2-c32ca4d53465","createdByUserId":"f44f150c-d6f2-446d-acdc-82791ac1a43a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjI5LjIwNDM3MCIsInVzZXJfaWQiOiJkZmJlYTU2Ni03Y2U3LTRjYWYtOGI0ZC1kMmM0N2I1MzkzOWMifQ.TNNsCuEmk9v_z-OrrDI_9OdhV3Ogv87rBvwxYiBxzyw' \
+  -H 'content-length: 284' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden their hand name.","courseId":"6f518d99-5bc0-426d-8d6e-e0df3797edc5","maxScore":96,"minScore":17,"orderIndex":20,"description":"Car certainly voice event plan across why. To thousand you morning significant. Girl stand most really box yard.","estimatedTime":"2 weeks"}'

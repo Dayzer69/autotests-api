@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjMxLjA4NzI1NSIsInVzZXJfaWQiOiI0NjMzMmU5Mi05YWEyLTQ4MWQtOWEyZi1iNWFjYjVkYTE1ZWUifQ.jsoWw8gptTvYSN6KQfpEsMLjJXcXda67hvWLGYjBt6I' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"And respond three window itself no Congress prevent.","maxScore":69,"minScore":6,"description":"Threat chance government southern evening. Visit kid all public buy child child. In assume group sound financial. Republican woman even unit edge reflect commercial car.","estimatedTime":"4 weeks","previewFileId":"c2adcf44-5562-40ed-93ee-2c6cedaa23d6","createdByUserId":"46332e92-9aa2-481d-9a2f-b5acb5da15ee"}'

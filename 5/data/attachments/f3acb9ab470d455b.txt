@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjMxLjY3NTQ1MSIsInVzZXJfaWQiOiJhYWU2NzcxYy0yYTc5LTQ4ZmMtYWNhNy01YjNmNzIwYmQ1YmYifQ.NZboEytdjMsqTo4vo4GejY63PfyEnbQBtXBmLj0J5So' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss say end popular student they especially live.","maxScore":86,"minScore":18,"description":"Especially ten work before wear dinner suddenly. Office it issue start. These hour medical push sometimes building.","estimatedTime":"5 weeks","previewFileId":"69a5f6b8-fb6d-4a4e-a68e-28c6dbf86cf2","createdByUserId":"aae6771c-2a79-48fc-aca7-5b3f720bd5bf"}'

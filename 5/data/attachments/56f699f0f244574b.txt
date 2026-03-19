@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjI5LjIwNDM3MCIsInVzZXJfaWQiOiJkZmJlYTU2Ni03Y2U3LTRjYWYtOGI0ZC1kMmM0N2I1MzkzOWMifQ.TNNsCuEmk9v_z-OrrDI_9OdhV3Ogv87rBvwxYiBxzyw' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner worker card stand page.","maxScore":95,"minScore":24,"description":"Central benefit night similar. That bad for billion draw.\nGood lay red ok. Firm series trip control security sister garden ok. Wall our subject finish.","estimatedTime":"1 weeks","previewFileId":"98176637-c5a9-44d4-9517-0c4eca620345","createdByUserId":"dfbea566-7ce7-4caf-8b4d-d2c47b53939c"}'

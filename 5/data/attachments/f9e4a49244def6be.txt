@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjMxLjA4NzI1NSIsInVzZXJfaWQiOiI0NjMzMmU5Mi05YWEyLTQ4MWQtOWEyZi1iNWFjYjVkYTE1ZWUifQ.jsoWw8gptTvYSN6KQfpEsMLjJXcXda67hvWLGYjBt6I' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget expect weight same our there.","courseId":"15edf1fd-df08-4b2b-980b-46c64e75a1ea","maxScore":79,"minScore":12,"orderIndex":68,"description":"Watch true part education they though measure. Movie behind know rather. Hospital read four international. She special live fear size avoid build.\nCarry a live.","estimatedTime":"6 weeks"}'

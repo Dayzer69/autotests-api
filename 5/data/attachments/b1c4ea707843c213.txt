@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjM4OjI4LjAyOTA1NSIsInVzZXJfaWQiOiJiYjgzN2JkNy0xNTQ2LTQ3NTktOWFlNi1lN2YyMzY5MzIzMDYifQ.-r6ijffTMxlg56w4JQOg3lq7OEbnDaTXDW-MPkE7Njo' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Political write at alone political suddenly.","maxScore":67,"minScore":27,"description":"Open while debate language. Thing in ten place exactly.\nRace this ok after professor stuff phone. Congress issue case take summer rest design. By decade design include product PM.","estimatedTime":"6 weeks","previewFileId":"1c000d2d-0fe2-48f4-9e92-2b65ea7da294","createdByUserId":"bb837bd7-1546-4759-9ae6-e7f236932306"}'
