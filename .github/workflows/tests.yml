@@ -52,7 +52,7 @@ jobs:
           name: allure-results
           path: allure-results
 
-
+  # вторая джоба
   publish-report:
     runs-on: ubuntu-latest
 
