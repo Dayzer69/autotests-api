@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjMwOjAxLjYzOTU5NiIsInVzZXJfaWQiOiI1NjNhMGZmMy1lNzNjLTQyZGQtOTUyYi0yMGViZWY0MjQwYTIifQ.pcvGFqS3hpqvXbA3SP8biRJTnEMs6YJW70ytG20vBFM' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal serious investment spend.","maxScore":59,"minScore":11,"description":"Early whose little hand later age.\nSingle investment two tax consider century. Tough though relate against century baby clear. Area foot drug generation three too.","estimatedTime":"2 weeks","previewFileId":"389bbced-52ab-4997-9601-74d86b61e683","createdByUserId":"563a0ff3-e73c-42dd-952b-20ebef4240a2"}'

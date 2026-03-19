@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjI5OjU2Ljg5ODUwOSIsInVzZXJfaWQiOiI0OGQ4NDdhYi1hMDI1LTQ4NzAtYTE5OC1mNGI5N2VmMzhiM2MifQ.PonerI8FzxTiQJRtu2Np1vSAd49br8eDkQoTlosb7sw' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago fear fact nation.","maxScore":69,"minScore":5,"description":"Respond send accept. Central leg foreign accept religious particular into. By have trip possible remain week.","estimatedTime":"4 weeks","previewFileId":"74be9d07-3dc5-48c5-9d89-617e4361bf52","createdByUserId":"48d847ab-a025-4870-a198-f4b97ef38b3c"}'

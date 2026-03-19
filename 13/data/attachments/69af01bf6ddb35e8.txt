@@ -1,0 +1,24 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/e60cd167-36b4-439d-907f-b3aa30ea5463
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/e60cd167-36b4-439d-907f-b3aa30ea5463
+[32mINFO    [0m BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "id" equals to e60cd167-36b4-439d-907f-b3aa30ea5463
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "title" equals to System market idea.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 5cfa88db-4539-413c-92d1-e962aa051ffb
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 54
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 30
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 30
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "description" equals to Prevent information number hold policy act. Allow degree lose while wind threat. Must laugh another sense heavy no.
+Him safe sure sing always fly. Off explain production lose either week.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks

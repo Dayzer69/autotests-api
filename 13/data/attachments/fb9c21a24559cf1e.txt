@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjI5OjU5LjUxNzY3MyIsInVzZXJfaWQiOiIxMmY5YzVhZC1kN2ZiLTRmZTItYmU4NS1mMDQxMzQ0MDBmZTcifQ.6bWae8b-2-u6sAuUqw1XBQq__YeyXfwT6d-1kTU7rMc' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce week teach add.","courseId":"c91235dd-f16f-4976-9223-486ad0268df2","maxScore":72,"minScore":7,"orderIndex":12,"description":"Far stop tonight need coach. Bed just same subject role.\nThrow finish research evidence free store tonight. Table cell series writer later dinner become. Term rule any only thus.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,8 @@
+curl -X 'GET' \
+  'http://localhost:8000/api/v1/files/fake.request.id' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjMwOjA0LjI3NTUyNiIsInVzZXJfaWQiOiJjYjJlZDY4NS1lZTI1LTQyMzctOGNmNy0xNjc2YzM0NzExOTgifQ.18zDczt0e4CPSNNsVIfz03OhTGSRmEOCOdvQUu_auEg'

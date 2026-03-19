@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjMwOjAwLjQzOTgzNCIsInVzZXJfaWQiOiI0MjI0MmMxYS04NDVjLTRlM2EtODIyNS1mYjk1YmI0OWQ4ZWYifQ.kq2vIFe8_6UoZRGS_salae_UCeu82ISqg7OBQDnSjHo' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Push animal effort.","courseId":"dac890a2-4d0d-40d2-af3d-c6bfc7d3cca7","maxScore":58,"minScore":3,"orderIndex":46,"description":"Perhaps better sound us trip view enjoy we. Heavy throughout know camera. Marriage time newspaper attack three because consumer.","estimatedTime":"2 weeks"}'
