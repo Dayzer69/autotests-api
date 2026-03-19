@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjU4OjE1Ljc5MTQ4NiIsInVzZXJfaWQiOiIwYjk5NTkxZi0xY2M5LTQ0NmUtODlmNi05NDlmZWU1ZjcxZmQifQ.JPhHbar-XCXNSqBmFp-Kc7XgKD2IevauROebjbra664' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Statement sound ready future whose prove.","maxScore":74,"minScore":8,"description":"Report include entire detail. Relate wish start person fish. Discover attorney because physical class wait strategy century. Car several evidence Democrat task.","estimatedTime":"9 weeks","previewFileId":"f5fcd9b0-7f26-41af-98d8-0f17b6ebf51a","createdByUserId":"0b99591f-1cc9-446e-89f6-949fee5f71fd"}'

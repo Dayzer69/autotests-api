@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE3VDA3OjUxOjI4LjgyMDU2MSIsInVzZXJfaWQiOiI3MDlhZjVlMS00NTMyLTRjZTItYmYyNy1jMzViNTNjOWQ4ZWIifQ.nsyCSfAGoOgmRCYie-z2NhUCsJ6YjfchAWBiA5ABFRM' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cell big forget manager soon some bank.","maxScore":76,"minScore":26,"description":"Present significant everything. Leg position various wonder couple various political.\nLead successful allow society chair respond PM answer. But dark speech response. Money radio try.","estimatedTime":"4 weeks","previewFileId":"875f0e40-3c77-4029-8d4f-0ba8da6fe019","createdByUserId":"709af5e1-4532-4ce2-bf27-c35b53c9d8eb"}'

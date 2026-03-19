@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjU4OjE0LjQyMDY2OSIsInVzZXJfaWQiOiIyZmE3M2I3NC1iNTFiLTQyYzUtYTBiNS1hNzFiMWRiZTgyOWUifQ.qaQCWxc-HV-1fu8x2Dj2cr00MJGY1qTJ-XCSn3fvFqE' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime outside lead single from cup key.","maxScore":62,"minScore":29,"description":"Home war ready. Method receive environment attorney seat stock.","estimatedTime":"6 weeks","previewFileId":"166eaea3-deda-4ce2-a620-e38ad7bb616d","createdByUserId":"2fa73b74-b51b-42c5-a0b5-a71b1dbe829e"}'

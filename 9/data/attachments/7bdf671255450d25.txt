@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjU4OjE3LjgzOTMwOSIsInVzZXJfaWQiOiI4ZTY2ZDRmOS05YWNlLTQxMWUtYmEzYS03OWQ2NmVhYmI5OTYifQ.14AlCPa4t4G7Ku69cc4yqpR1SkS2syzRGhP2mKQjvR0' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Piece experience civil report step pick pressure.","courseId":"08dfb05c-0b0e-457b-99c6-ed29cf29814f","maxScore":97,"minScore":13,"orderIndex":1,"description":"Section computer bag story. Son authority there two pick kind. Argue should staff win. System area yard various trouble.","estimatedTime":"6 weeks"}'

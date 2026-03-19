@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjU4OjE1LjEzNTQ2NCIsInVzZXJfaWQiOiJjYWIwMWFkNi1hZTQ5LTQyYzMtYTZhNy05N2M1NjVkMTRmNTMifQ.wgq-CkAVx6zMhe0MaN3fSvaUutXLLsp0Pf039iksaRM' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever much cover fill product color bar.","maxScore":95,"minScore":1,"description":"Pressure cut economy president data huge. Sort already relationship miss.","estimatedTime":"1 weeks","previewFileId":"58df2c89-b449-4f4f-826c-e7486abcd1b8","createdByUserId":"cab01ad6-ae49-42c3-a6a7-97c565d14f53"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjU4OjE3LjEzNzYyMSIsInVzZXJfaWQiOiIzMjgyYzEzYy1kYzA5LTRmYjktYWE2Ni01YmFmMWU1NjZhNjkifQ.xPdo6exV-pb2yxuuBa_4jnHY5DJvkK9xTsMWfdAEs88' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun item way peace but theory.","maxScore":56,"minScore":10,"description":"Financial opportunity several affect customer. Training remain so instead religious. Once collection citizen central head film.","estimatedTime":"6 weeks","previewFileId":"f1ddbd48-cb09-413f-bb96-4fefc595c6a8","createdByUserId":"3282c13c-dc09-4fb9-aa66-5baf1e566a69"}'

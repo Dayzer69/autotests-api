@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjU4OjE3LjgzOTMwOSIsInVzZXJfaWQiOiI4ZTY2ZDRmOS05YWNlLTQxMWUtYmEzYS03OWQ2NmVhYmI5OTYifQ.14AlCPa4t4G7Ku69cc4yqpR1SkS2syzRGhP2mKQjvR0' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need news wear reality.","maxScore":97,"minScore":15,"description":"Thus force region sure again usually. Month bar child religious bill down experience decide. Contain there chair rather three.","estimatedTime":"8 weeks","previewFileId":"dbf24d32-9ec3-47e9-a806-789e57f38dff","createdByUserId":"8e66d4f9-9ace-411e-ba3a-79d66eabb996"}'
