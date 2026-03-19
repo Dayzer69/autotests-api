@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjIyOjExLjAzNTYwMCIsInVzZXJfaWQiOiJlMTA0ODZiNi01YTQ4LTQ5M2QtYTZmYi1lYzNjM2UwNjk1NWUifQ.xjws6-WpJ5_MHcAgrT9p77CuNHEEk46uVMBL5fSrnz8' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Town no American according other break.","maxScore":67,"minScore":23,"description":"However trade miss ten call appear. Campaign follow whom research. Future never particular whether feel across. Receive financial develop animal page thousand.","estimatedTime":"3 weeks","previewFileId":"259af7c2-da33-4ab4-8dde-1b857b7b3e2d","createdByUserId":"e10486b6-5a48-493d-a6fb-ec3c3e06955e"}'

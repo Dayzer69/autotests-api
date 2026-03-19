@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjIyOjExLjAzNTYwMCIsInVzZXJfaWQiOiJlMTA0ODZiNi01YTQ4LTQ5M2QtYTZmYi1lYzNjM2UwNjk1NWUifQ.xjws6-WpJ5_MHcAgrT9p77CuNHEEk46uVMBL5fSrnz8' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Candidate bed item entire value.","maxScore":57,"minScore":19,"description":"Parent learn from cold. Just manage away speak one fine however.\nMr table available wall everybody save reason. Goal forward animal color note past interesting. Improve tell various dark quality.","estimatedTime":"1 weeks","previewFileId":"259af7c2-da33-4ab4-8dde-1b857b7b3e2d","createdByUserId":"e10486b6-5a48-493d-a6fb-ec3c3e06955e"}'

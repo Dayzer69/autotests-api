@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjIyOjEzLjM4MDAxMSIsInVzZXJfaWQiOiJlNDA1Njg5Ny1jMDVkLTRhMWUtYWQ5Mi00Zjg1ZWI1ODZlNmEifQ.RTLBvRGYtex7pADGJCV6VMc-dLJFgJI-BvgfaV0HI-8' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say away important over.","maxScore":78,"minScore":6,"description":"Play wall toward. War three new suffer space leave. Might agreement woman brother present skill dark product.\nAbove cup cold show beat message dog. Move fight since. Beyond assume action her blue.","estimatedTime":"7 weeks","previewFileId":"f1f72881-b031-4b76-8307-aa7f8b1d9b91","createdByUserId":"e4056897-c05d-4a1e-ad92-4f85eb586e6a"}'

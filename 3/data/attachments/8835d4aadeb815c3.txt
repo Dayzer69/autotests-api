@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjIyOjEzLjY4NzkwOSIsInVzZXJfaWQiOiJkZTBhMDY3NS00YjE4LTQ1ZTgtOGFiNC0wMjRiZDVkMjc1YmIifQ.EZmIipz5HrFscZQyI24JJg0bNgIS7AHyodrWC7ZSfgw' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treat board deal friend bag partner your.","maxScore":94,"minScore":14,"description":"Peace serious with southern along career start. Owner possible seem question together certainly. Service prove history sit face road we.","estimatedTime":"3 weeks","previewFileId":"0e15d857-7c59-41c7-8e0f-17bf092dbedf","createdByUserId":"de0a0675-4b18-45e8-8ab4-024bd5d275bb"}'

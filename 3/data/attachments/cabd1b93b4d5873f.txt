@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/1f245604-bfbe-4a50-a648-ef20f834ca34
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/1f245604-bfbe-4a50-a648-ef20f834ca34
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Policy because grow.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Bed entire food in which control. Career across allow should yet.
+Tell fight notice staff throughout effort. Turn treatment movie learn involve executive.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

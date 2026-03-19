@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjIyOjA5LjQ0OTIyMCIsInVzZXJfaWQiOiI5NTlkOTQzMi1lY2Q4LTRkNTEtYTJiNC01MzNkNDRiMTAyMzAifQ.85BKmMsF_wN5SkU5CkYJrTq0v5JbF7K1ig-xAco-24M' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However check structure agree itself.","maxScore":50,"minScore":29,"description":"Admit describe suffer modern. American perform base.\nSecurity run thousand hope develop rate though. Money radio generation live account pass continue. Collection administration ahead she third.","estimatedTime":"4 weeks","previewFileId":"ad4c52ed-ec11-4e27-9619-7244c9d868cc","createdByUserId":"959d9432-ecd8-4d51-a2b4-533d44b10230"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjIyOjEwLjcyODAxNSIsInVzZXJfaWQiOiIyMzdiNzQ4Zi0xY2ViLTQ2ZTctYTlmOS05OTI1ZmJlZTEwMWIifQ.1QHPy22ngazuhZ6u19D-UOfUv4OOMCv7b9Jhh1lXgBc' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manager out boy offer wait.","maxScore":83,"minScore":19,"description":"Economic last foreign both federal important necessary. Candidate main mother marriage brother. Institution these risk here.\nTask paper article throw. Dark push author why assume.","estimatedTime":"6 weeks","previewFileId":"7dea465d-775a-4264-b95f-d496ddeb92ea","createdByUserId":"237b748f-1ceb-46e7-a9f9-9925fbee101b"}'

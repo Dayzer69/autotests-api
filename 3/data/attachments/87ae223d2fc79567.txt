@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjIyOjE0LjcwMTk4NSIsInVzZXJfaWQiOiJjNjE4OGIyYi00NmUxLTRjOTQtOThlMC1lNWM0OTdhM2EyYzEifQ.EJZWPH5e8Dt3SONLVGiL9Dk0D6pkhRAdfXWSEOOGEPs' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rock follow commercial likely black so.","maxScore":80,"minScore":2,"description":"Paper edge bed enough nature. Think southern growth else people. Beautiful central book sing that.","estimatedTime":"2 weeks","previewFileId":"93b6d4e7-8e90-4f13-9d8d-9c05f77705fc","createdByUserId":"c6188b2b-46e1-4c94-98e0-e5c497a3a2c1"}'
