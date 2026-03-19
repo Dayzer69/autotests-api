@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjI4OjA3LjkxMTU1OCIsInVzZXJfaWQiOiI1ZDY4MGVhZi1hZDY5LTRmMGMtYWJmNC1iMmQxOThkODU4MmYifQ.Ol7AQG1tdy__LIZoPxpmKnuL90Aipch1dj30EtYpswc' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discuss describe wife.","maxScore":88,"minScore":13,"description":"Place father win education. Money piece management few. Ok reality dark energy only but admit.","estimatedTime":"3 weeks","previewFileId":"7105361f-c62f-42df-b61b-f394f0863aa9","createdByUserId":"5d680eaf-ad69-4f0c-abf4-b2d198d8582f"}'

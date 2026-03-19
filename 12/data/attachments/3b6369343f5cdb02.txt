@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjI4OjA2LjQxODg2NCIsInVzZXJfaWQiOiIyZjk3YjgzYy1kYWIxLTRjNDQtOTgwMi0zODgwMGVlMjU5MzcifQ.7bwDu1dfmMqn8KizmcYJsrDujkcO-r846dpvaZm1xjc' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"East he from production word all however.","maxScore":81,"minScore":7,"description":"Happen middle court in firm really. Well between worker.\nHeavy kind bed lose. Within within challenge ok soon purpose.","estimatedTime":"3 weeks","previewFileId":"eaaf8e0c-d0e6-4537-986c-8475669e107f","createdByUserId":"2f97b83c-dab1-4c44-9802-38800ee25937"}'

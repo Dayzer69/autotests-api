@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Fine car focus green music paper finish.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 0e343409-62a3-417f-b68b-13f68ec91e84
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 99
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 3
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Term executive rule responsibility free. Series produce push box movement cold I. One range amount nor know.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

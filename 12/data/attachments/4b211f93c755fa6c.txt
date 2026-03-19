@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE3VDA3OjUwOjU3LjAxOTAyNiIsInVzZXJfaWQiOiIxNDAyZTJmMS1jZWFjLTRmMTQtOTJjYi0xZDJhYzI1ODY2MmEifQ.RHR4pb8SW-QYXgiXb48E7z2_PVu2BQa5H3yFde3OIYQ' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern seek behind international growth house.","maxScore":82,"minScore":24,"description":"Stock budget leave state believe can. Ask smile officer rate financial. Word claim receive study wear.","estimatedTime":"7 weeks","previewFileId":"afe74b7d-b105-48a5-9e09-a17d7f53c23d","createdByUserId":"1402e2f1-ceac-4f14-92cb-1d2ac258662a"}'

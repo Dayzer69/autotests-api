@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjI4OjEwLjM5MzgzMiIsInVzZXJfaWQiOiI0ZDYwYWIwMS03ZTVkLTQzYzctYTVkMC0xYzIzNDQ3NzY3OGYifQ.CMnGUIZDqUqIFswaaRcAmakkbozvI2bDNs94koiH6pk' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now both to concern reality value third.","maxScore":66,"minScore":17,"description":"Off option cost beat. Music hair and be peace.\nRemember protect be American fine receive at consider. Point student something security least property. Mouth trip ability magazine sure.","estimatedTime":"7 weeks","previewFileId":"18c6b589-705d-46fe-937c-fca7f129d22c","createdByUserId":"4d60ab01-7e5d-43c7-a5d0-1c234477678f"}'

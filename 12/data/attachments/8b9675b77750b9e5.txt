@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f98ba0ba-75de-47a9-983e-660bc0abb08f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjI4OjA3LjMxNzIzNCIsInVzZXJfaWQiOiI1Y2NkNGZkNy02YjAwLTRkMGItYmQzYi0wYjJiMWU4MzYyN2MifQ.KQ9TqcR-fzE4soZA5pu9p5-8MRIy0kssI3H-YHh23qw' \
+  -H 'content-length: 266' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bar result those pick herself.","maxScore":96,"minScore":21,"description":"Who example list else tend. Strong street admit follow rock. Several rest form everything argue office. Save well house amount operation subject ability.","estimatedTime":"9 weeks"}'
