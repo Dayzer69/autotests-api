@@ -66,7 +66,7 @@ class TestFiles:
     @allure.severity(Severity.NORMAL)
     def test_create_file_with_empty_filename(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
-
+            filename='',
             upload_file=settings.test_data.image_png_file
         )
         response = files_client.create_file_api(request)
@@ -84,7 +84,7 @@ class TestFiles:
     @allure.severity(Severity.NORMAL)
     def test_create_file_with_empty_directory(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
-
+            directory='',
             upload_file=settings.test_data.image_png_file
         )
         response = files_client.create_file_api(request)
