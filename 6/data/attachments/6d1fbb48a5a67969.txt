@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjQwOjU5LjM2NTIwNSIsInVzZXJfaWQiOiI2YWMzMThiNC1hM2VmLTQ5NTItOGZkMy00NjAyZjg2MGJhNTkifQ.fmXtt6YLHQ3U7nCyjfJFe9ZGu9W7iS1MULF-leEyN3M' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand name last nor with.","maxScore":81,"minScore":25,"description":"Church another can various science whole. Night story TV week maintain worker interesting. Beat through determine improve nature feel away. Child huge area age few become about hair.","estimatedTime":"9 weeks","previewFileId":"83bfc816-d59f-44d2-b5e4-57ccf1b62112","createdByUserId":"6ac318b4-a3ef-4952-8fd3-4602f860ba59"}'

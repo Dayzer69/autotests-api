@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2ee5c8ce-c978-45cf-9d96-09c1ee8be364' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE3VDA3OjUxOjM2Ljc1MTY2MCIsInVzZXJfaWQiOiI3YjAzMzU0Zi00ZTY1LTQxOTktYWU0ZC01MjE0MDMxMzY3M2MifQ.MXw-Xznvvizh49ykH9bYdAA5swS8ul4mEd9H6z7Vfag' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son eight back concern tree together bring think.","maxScore":91,"minScore":18,"orderIndex":3,"description":"International space sea sure economic true. Newspaper activity Congress particular. Represent find up realize media risk more.","estimatedTime":"2 weeks"}'

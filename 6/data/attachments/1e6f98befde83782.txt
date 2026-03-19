@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjQxOjAwLjU1OTA1OSIsInVzZXJfaWQiOiJlYWFlNjM2Yi1iZTg2LTRhMGYtYTE1Ny0xY2Q0ZjFmNjM1MjUifQ.IT8Z-lM5njTMArjyqXWOdJdlkPueuQcgEZdFxtN1gRI' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Doctor discover effort production baby remain into.","maxScore":82,"minScore":27,"description":"Usually house then seat night. Cut would indicate learn market program.\nFrom president sign write true guess from. Make defense in would eat. Side have consumer choose. Throw police often cost.","estimatedTime":"3 weeks","previewFileId":"985bac61-0d30-4f59-952d-8619efd7b64d","createdByUserId":"eaae636b-be86-4a0f-a157-1cd4f1f63525"}'

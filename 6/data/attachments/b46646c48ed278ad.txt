@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjQxOjAwLjU1OTA1OSIsInVzZXJfaWQiOiJlYWFlNjM2Yi1iZTg2LTRhMGYtYTE1Ny0xY2Q0ZjFmNjM1MjUifQ.IT8Z-lM5njTMArjyqXWOdJdlkPueuQcgEZdFxtN1gRI' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern threat amount model company defense baby.","courseId":"897e15da-d47d-4b3d-80bc-30253b216e67","maxScore":77,"minScore":14,"orderIndex":96,"description":"Create grow among evening around for.\nInstitution that feeling fast. Week case chair. Yourself service security interesting.","estimatedTime":"9 weeks"}'
