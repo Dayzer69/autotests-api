@@ -70,7 +70,8 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
             ValidationErrorSchema(
                 type='string_too_short',
                 input='',
-                message='Field required',
+                context={"min_length": 1},
+                message='String should have at least 1 character',
                 location=['body', 'filename']
             )
         ]
@@ -92,7 +93,8 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
             ValidationErrorSchema(
                 type='string_too_short',
                 input='',
-                message='Field required',
+                context={"min_length": 1},
+                message='String should have at least 1 character',
                 location=['body', 'directory']
             )
         ]
