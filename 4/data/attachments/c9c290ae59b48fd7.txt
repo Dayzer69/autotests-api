@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE3VDA3OjUxOjUyLjc1MjQyNiIsInVzZXJfaWQiOiIzMTYwOGJkMS1jMzI4LTQ1M2YtYTQ5NS0wZjc3ODhmZTZiODUifQ.7vl5vEFD-NQ-tiBc7WR9mJoM89lwg-eHSDsIveor6WU' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Budget certainly majority.","maxScore":57,"minScore":21,"description":"Discuss guy around cost us call. Low already surface nation agency.\nArt hospital he rock moment like responsibility TV. Cover heart accept ago relate study group. Hour happen memory its pull reflect.","estimatedTime":"3 weeks","previewFileId":"2147599b-fb50-42a9-8cba-2ac4a76e6d15","createdByUserId":"31608bd1-c328-453f-a495-0f7788fe6b85"}'

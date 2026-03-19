@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjMzOjI1Ljk0MDczMiIsInVzZXJfaWQiOiI3MmE2ZjhlYi1kZTEzLTQzZjMtYmE4ZS1mOTAzNWUzN2JjMTYifQ.rH1NKa42Q9F_lY08yyonroWT1tLWjHVD4P-ycq-ErmU' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly thus glass west generation.","maxScore":85,"minScore":12,"description":"Usually maybe American wall claim. Interest enough take.\nEffort challenge similar north accept. President amount lawyer because would performance. Worker seek option method important paper.","estimatedTime":"6 weeks","previewFileId":"98750676-b8c8-43a2-a18d-9741137557b4","createdByUserId":"72a6f8eb-de13-43f3-ba8e-f9035e37bc16"}'

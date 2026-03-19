@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/af5f9c9c-a7ae-40d6-b3d9-627ff8bc0e08' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjMzOjI0Ljc3ODY3NiIsInVzZXJfaWQiOiIwYjJmYTNlZS1mYTk0LTQyMDEtYWQxZi0yNTM4N2EzZjMzNTAifQ.7etzUxl1oR9kZl9p_ZsvAYo2bvsNNRsnx2HroVyZjxA' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother but staff money at.","maxScore":59,"minScore":4,"orderIndex":97,"description":"Home this fund investment yet. Business him open door same really. Draw whatever challenge meeting long teach matter.\nTalk list blood. Form system color fly cultural meeting.","estimatedTime":"9 weeks"}'

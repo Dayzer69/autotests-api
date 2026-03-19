@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/70973508-733d-49a6-b3d6-1f86454a64d7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjMzOjIzLjA1MDg1NyIsInVzZXJfaWQiOiJkOTg2NWI1OS1lOTE0LTRjZTktODFiOC04MDQ2NjExZWJhODkifQ.r8y2d5CUj-qAB_JxIJVT7vy3V8q2gDltP7HdyqTr4hc' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner impact within approach film during director.","maxScore":62,"minScore":26,"description":"Develop person knowledge would option risk north.\nBill feel direction as level.\nSix money own more. Wish fund read.","estimatedTime":"4 weeks"}'

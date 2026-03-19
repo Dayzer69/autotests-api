@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjMzOjIzLjY2NzQxNyIsInVzZXJfaWQiOiIyOWZhNzI5Yy03NTZlLTQ5NTMtYjcyYS1mZjVmNGU4NTgxMzUifQ.6bsh8T54_ll7kNvOrSeYMvYoT_MOziQx_NNTP65n8YY' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"See four security participant.","maxScore":58,"minScore":28,"description":"Significant instead such me. Half process husband huge general. Left rich event.\nAmerican fish identify road explain. Admit executive remember brother capital low speech leg.","estimatedTime":"8 weeks","previewFileId":"4faec060-511a-464c-9333-1c816b20f993","createdByUserId":"29fa729c-756e-4953-b72a-ff5f4e858135"}'

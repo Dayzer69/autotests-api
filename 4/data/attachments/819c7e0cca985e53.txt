@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjMzOjIzLjA1MDg1NyIsInVzZXJfaWQiOiJkOTg2NWI1OS1lOTE0LTRjZTktODFiOC04MDQ2NjExZWJhODkifQ.r8y2d5CUj-qAB_JxIJVT7vy3V8q2gDltP7HdyqTr4hc' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead some former boy finally conference note look.","maxScore":54,"minScore":17,"description":"Most which whose worker travel. Space information little actually real firm.","estimatedTime":"10 weeks","previewFileId":"8b3ae8b0-a40b-488c-a47f-5c6c224ab75d","createdByUserId":"d9865b59-e914-4ce9-81b8-8046611eba89"}'

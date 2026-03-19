@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjMzOjI1LjMzMTU4NiIsInVzZXJfaWQiOiI4ZThlZjE1NS01MmJhLTQ1ZWEtOTY5OS04NjZiN2Q4ZjIwOGQifQ.xVX7T3gGMqsytqwcIYMGAR1pDDMO2r7CN25eO1GQzpk' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Present crime type increase her pay item listen.","courseId":"c983620c-04fa-444c-af6f-687f55a9d246","maxScore":90,"minScore":11,"orderIndex":21,"description":"Together something production house indeed hard financial image. Again actually firm toward foot. Air measure either white.","estimatedTime":"5 weeks"}'
