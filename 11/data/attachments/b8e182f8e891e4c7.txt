@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjE5OjA3LjY0MjYyMSIsInVzZXJfaWQiOiJlNjU0YmMxMS03NjFlLTQ3YTctYWE5Yi01MTA5YzI3MmJlMDAifQ.d9AAR5PMsaRyYwHLaqnIqn81Vp6S_FOROcwcyrb9FWk' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court this now trade certainly.","courseId":"9cdbf907-5668-4941-a7e7-5c060086c3cc","maxScore":82,"minScore":2,"orderIndex":24,"description":"Morning business card message agency. Store worry certain official as mouth south.\nIts Democrat analysis get phone foot. You open eat between it only.","estimatedTime":"5 weeks"}'

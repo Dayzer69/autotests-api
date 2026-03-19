@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjE5OjA1LjI5Mjk5OSIsInVzZXJfaWQiOiIyNmE0ZTA5NC01OGMxLTQ2NTItOWU1ZS03MmVkODJlN2ZhZTcifQ.AwuDhyHspKJ7u1o65jrRzRZ3SBFYFkToXLvRGEwvBTw' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Able decide fill trade hand each like.","maxScore":95,"minScore":21,"description":"Provide physical standard surface sure become. Job report nation note concern article. Hold great even time before particular.","estimatedTime":"3 weeks","previewFileId":"7c60eb27-7ae3-4439-9152-9d2cc3da03b9","createdByUserId":"26a4e094-58c1-4652-9e5e-72ed82e7fae7"}'

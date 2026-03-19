@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjE5OjEwLjAwOTM0NSIsInVzZXJfaWQiOiI5YWEzYTI0ZC1kZjI4LTRlMTYtYWViOC1mYjkwNmY1YWE1MGEifQ.yuZn_JiTyduCPvaroHN1Gy8hu-ZDn9fOxti-eS7RvNs' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Population stock Republican someone executive.","maxScore":54,"minScore":25,"description":"Anything nearly learn already. Forget kind seek war happen all plant hundred. Street wear minute watch deal.\nStaff finally western project. No believe arrive piece field form around listen.","estimatedTime":"4 weeks","previewFileId":"940014fe-4aad-4897-bdd6-d92e0d4f9e83","createdByUserId":"9aa3a24d-df28-4e16-aeb8-fb906f5aa50a"}'

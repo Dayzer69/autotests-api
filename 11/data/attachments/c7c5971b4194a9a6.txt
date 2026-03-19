@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjE5OjA5LjA5NjM4NCIsInVzZXJfaWQiOiI0YTFkYTAxNy1hNjEyLTQwYzMtYjVjZS1hYzIxZjNhMzQ2NTkifQ.lA6N4HmmIKxPAnVgjH8HbowtaJUpLQRz3IOY9mRWniI' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Work movie partner what former whatever individual practice.","maxScore":60,"minScore":23,"description":"Country term as again occur out hard important. Buy point commercial black thank realize. Hope specific discuss type.","estimatedTime":"6 weeks","previewFileId":"13368daf-5f05-4aea-b538-6b20bada608a","createdByUserId":"4a1da017-a612-40c3-b5ce-ac21f3a34659"}'
