@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e06d29b8-6e44-4c78-9314-5b915bb5f6f9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUwOjQxLjUyNzczNiIsInVzZXJfaWQiOiJmZDRhNmEyNi1mMDU4LTQxOTQtYTAxMi1mNTI5NjJiODA2MjkifQ.G8tp_8mK5kISFchDhk8jKVYW5psv0HsH9IHZkk2yV6I' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing call surface region get.","maxScore":54,"minScore":5,"description":"Change treat clearly avoid. Recent police force already then central talk.\nBox politics general everyone. Into American last this focus security. Message city risk their deep everybody.","estimatedTime":"3 weeks"}'

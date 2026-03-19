@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/77dcaebc-82ad-4bbe-8184-51883a5d6b91
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/77dcaebc-82ad-4bbe-8184-51883a5d6b91
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:64 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:41 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 77dcaebc-82ad-4bbe-8184-51883a5d6b91
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Call your measure similar create interest simple list.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to d12637af-7d86-460e-a881-4ccf98b3dccf
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 55
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Keep over the example. Source investment argue environmental whose. Blue mind style course police kind create.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks

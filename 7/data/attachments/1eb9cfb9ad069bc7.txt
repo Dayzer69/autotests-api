@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUwOjQxLjUyNzczNiIsInVzZXJfaWQiOiJmZDRhNmEyNi1mMDU4LTQxOTQtYTAxMi1mNTI5NjJiODA2MjkifQ.G8tp_8mK5kISFchDhk8jKVYW5psv0HsH9IHZkk2yV6I' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star institution specific reveal tell risk for.","maxScore":68,"minScore":14,"description":"Kitchen sort type visit dinner. Pretty learn four wall southern to really.","estimatedTime":"1 weeks","previewFileId":"485387f1-0bf8-4d6c-98bf-b2b87c4b5d99","createdByUserId":"fd4a6a26-f058-4194-a012-f52962b80629"}'

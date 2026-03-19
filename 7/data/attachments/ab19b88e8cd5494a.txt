@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUwOjQzLjkxNjQ0MiIsInVzZXJfaWQiOiI2NTc4NzJkYi1mY2FkLTQ4Y2QtOTM1NS0wMTI5ZTU3ZTgxZDQifQ.FA9HzgoYtquVMY9gmkAgv-g00BHk2REX7emOz8JpwV8' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Your lead energy coach girl minute more.","maxScore":97,"minScore":16,"description":"Front door sort parent record top. Power suffer carry. Choice special source author good Mrs situation.\nPlan other from trial.","estimatedTime":"7 weeks","previewFileId":"f512e0b4-7515-4e38-b8c6-997a3429e44d","createdByUserId":"657872db-fcad-48cd-9355-0129e57e81d4"}'
