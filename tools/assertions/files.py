@@ -69,7 +69,7 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
         details=[
             ValidationErrorSchema(
                 type='string_too_short',
-                input=None,
+                input='',
                 message='Field required',
                 location=['body', 'filename']
             )
@@ -91,7 +91,7 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
         details=[
             ValidationErrorSchema(
                 type='string_too_short',
-                input=None,
+                input='',
                 message='Field required',
                 location=['body', 'directory']
             )
