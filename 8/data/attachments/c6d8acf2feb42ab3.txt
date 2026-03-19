@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUyOjU4LjQwNjI5MCIsInVzZXJfaWQiOiJkY2RjNGYxNi02ZWVjLTRjMDktOWVjYi1mZDBiMzk0YjgyODEifQ.O9XPD3L44lFE1cX1JsYjaQbxS1lau62vsjlc4vXZHsM' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Should usually town trial feel practice up.","courseId":"44e09899-ceb0-43ea-9db7-9896f44e2898","maxScore":65,"minScore":28,"orderIndex":53,"description":"Music spring glass employee. Key wife bad crime these laugh stop. Quickly nor these several.\nResource despite nor member serve hour. While week follow report you. Sell my put summer.","estimatedTime":"5 weeks"}'

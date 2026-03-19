@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUzOjAwLjQ2NjU4NiIsInVzZXJfaWQiOiI5Y2FiN2UyZC05NWJiLTQxYWMtOGJiMS05MDZlYzgxMjE2ODEifQ.b7TtxuoRSZx-Doe7_G-SCYFD2falaivJSPPNAEqAn7E' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thus stand above staff suffer reason ground.","maxScore":76,"minScore":1,"description":"Case money production develop them contain. Quite company listen next opportunity.\nYou front another. Dream little would court first.\nCollection know be road.","estimatedTime":"8 weeks","previewFileId":"2fcf0ab3-2d5e-4d41-af08-35795688bfa6","createdByUserId":"9cab7e2d-95bb-41ac-8bb1-906ec8121681"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE3VDA3OjUxOjQ0LjY4NDE0NyIsInVzZXJfaWQiOiI5MDFmMDQ4NS1hM2YyLTQyMWQtYjU5OS1hOWU4YzY0MDY3MTEifQ.lp8tTCFIuVi4vhkXYZQ2d-DtvisJ2jCdqX7nm7hsoI8' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mission decide theory.","maxScore":100,"minScore":6,"description":"Life air true Congress stuff. Area if protect purpose. Senior work not identify agency great.\nYou change discuss certainly southern account. Us let we teach road.","estimatedTime":"5 weeks","previewFileId":"6b3eebd6-7a7b-4cca-8d41-a61fb8cc6f9f","createdByUserId":"901f0485-a3f2-421d-b599-a9e8c6406711"}'

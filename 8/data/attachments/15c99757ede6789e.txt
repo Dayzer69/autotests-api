@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUyOjU5Ljc2MDgyNiIsInVzZXJfaWQiOiI4N2YxYzE4OS1kOTAyLTQ5MzItYTIyYi04ZWVjMWZiZWE2NWUifQ.bCScHRE94Q2zMwpdqeGy7m5XrVTiOCmjIdTus7NqWTw' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound war head security create.","courseId":"e4606099-b378-47db-9159-758a0d98549a","maxScore":54,"minScore":7,"orderIndex":64,"description":"Mrs she same guess management option. Better rule southern north.\nAct relate social degree. Like north side rise big no skin similar. There brother attorney add statement agent.","estimatedTime":"8 weeks"}'

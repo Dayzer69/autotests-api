@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUyOjU4LjQwNjI5MCIsInVzZXJfaWQiOiJkY2RjNGYxNi02ZWVjLTRjMDktOWVjYi1mZDBiMzk0YjgyODEifQ.O9XPD3L44lFE1cX1JsYjaQbxS1lau62vsjlc4vXZHsM' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law social eye end health return.","maxScore":85,"minScore":23,"description":"Month buy argue court agent own. Always market arrive reality situation later board hospital.\nMrs reality laugh paper speak nice project. Never career war daughter employee ok.","estimatedTime":"7 weeks","previewFileId":"8b373792-6b8e-4431-ba82-acbd71e7343f","createdByUserId":"dcdc4f16-6eec-4c09-9ecb-fd0b394b8281"}'

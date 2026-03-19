@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA3OjUyOjU3Ljc1NDQ4MyIsInVzZXJfaWQiOiIzMWU4ZDhjMC0zODNkLTQxMDQtOTRkMS03NTdkMWU1Y2ZmOTcifQ.tMayuRbVdKHqkJySIAs-PlRNWJSKg6ZCNm9YYRLNt88' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cell among affect hotel world in between.","maxScore":82,"minScore":12,"description":"South leader feeling middle discussion pretty we. Reflect article close prevent.\nNight front dinner interest record. Old nice deal prove radio. Performance time total act.","estimatedTime":"10 weeks","previewFileId":"f5d92b24-1e04-497d-9c76-396b95d7b674","createdByUserId":"31e8d8c0-383d-4104-94d1-757d1e5cff97"}'

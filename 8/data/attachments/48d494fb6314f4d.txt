@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:22 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Should usually town trial feel practice up.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 44e09899-ceb0-43ea-9db7-9896f44e2898
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 53
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Music spring glass employee. Key wife bad crime these laugh stop. Quickly nor these several.
+Resource despite nor member serve hour. While week follow report you. Sell my put summer.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
