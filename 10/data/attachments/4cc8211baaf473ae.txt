@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4343cb6f-1c0d-46d1-927f-ea1f46db2440' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjAxOjIwLjk1NTMzMCIsInVzZXJfaWQiOiJmODJhY2EzOS01MDhjLTRkY2YtOTMyOS04YjIyZTllMjQyOTcifQ.aTVhN8xQc35XCp6hk8wTbt4LSiO9XcjzDX3TGo8yMZM' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We during able rich go source wide if.","maxScore":92,"minScore":9,"description":"Drive attack state challenge away. Window process machine much question high attention.\nUsually seek cultural item wall food they. Sea just medical.","estimatedTime":"10 weeks"}'

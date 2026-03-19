@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjAxOjI0LjMyNjU4MiIsInVzZXJfaWQiOiJjOGNmM2JmZS02ZDVmLTRjN2QtYWVlOC0yMjkyNmY1MDlhZDAifQ.KqYsh4saUI6kVnOc-yVnO903CjtU_Vh2JvJUVt4m1pg' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound by hour song.","maxScore":85,"minScore":26,"description":"Lose large team human establish. Development support process attention west charge service. Agent by often data.\nTreatment thing have cup reveal tonight.","estimatedTime":"10 weeks","previewFileId":"ea3e9ef3-3f5b-44db-b5a4-b906637fb5ad","createdByUserId":"c8cf3bfe-6d5f-4c7d-aee8-22926f509ad0"}'

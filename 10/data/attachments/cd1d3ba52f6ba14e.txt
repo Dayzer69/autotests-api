@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjAxOjIzLjYyMTk0OSIsInVzZXJfaWQiOiIyMTEwNDA5MS05ZjhiLTRlMmUtODY2Mi1jNjE1NjQxNjkzZjMifQ.LLvDfCo0v2IeH3SOfrjiWr-OSFIeVN5eSVmDi1ToT1E' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than represent cultural popular sound trip.","maxScore":90,"minScore":12,"description":"Wind service bag. On might perform interest bad choice.\nSignificant point nature small lay enter. Likely improve another control arrive. Buy amount nice maintain out police they.","estimatedTime":"7 weeks","previewFileId":"761bb9d0-d43b-4108-8deb-f9f053b31811","createdByUserId":"21104091-9f8b-4e2e-8662-c615641693f3"}'

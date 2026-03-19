@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE3VDA3OjUxOjEyLjkzNjMxNiIsInVzZXJfaWQiOiI2Y2E2MGU1ZC00YjIzLTRmZDItODljNS05NGI5ZmE1NmRjYTEifQ.cK28W4h7QY-Nud3ai0NPoLlxp8FPk-TTzvBiyrvsu6Q' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be line occur foot Democrat thought edge produce.","maxScore":97,"minScore":19,"description":"Bring source value guess. Hit force deal worry sure talk.\nNever reality determine forward carry how find. Machine say trade expect away likely medical. Party here forget matter.","estimatedTime":"3 weeks","previewFileId":"7885e803-533d-4ce0-a0b4-d833f21bbf4d","createdByUserId":"6ca60e5d-4b23-4fd2-89c5-94b9fa56dca1"}'

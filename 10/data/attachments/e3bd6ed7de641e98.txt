@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE5VDA4OjAxOjIyLjk3MDUyNSIsInVzZXJfaWQiOiIzYTI0NmEwMy00M2JiLTRiOTMtYjM0MS00YmNmMjE5ZDc0YmQifQ.d5EVdDXElJqfHkRryqyt13KtD6VwFDEeYrUn6mWxRaw' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Benefit several financial occur firm key.","maxScore":58,"minScore":15,"description":"Budget experience list same religious state. The figure but off oil believe film.\nSenior upon Mrs case view such general. Investment job they action view stage.","estimatedTime":"5 weeks","previewFileId":"6bf7e6c6-a553-4356-ac6f-f5c9988fe7f2","createdByUserId":"3a246a03-43bb-4b93-b341-4bcf219d74bd"}'
