@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjEwLjYxNDA1MCIsInVzZXJfaWQiOiJlZDJmZjE0Yi03ZmJlLTRiOTMtYjI0OS1mZmM2ZDQzYWVmMTgifQ.vEvCTe_0k8dzkPMIyN64PZKfRmfFyfO_izR6s_AD3F4' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm environment movie line enough increase road.","maxScore":83,"minScore":24,"description":"According father however sign style. Wife mind white truth suffer here right politics.\nCertain foreign finally look step sign scientist place. Old where world sit read.","estimatedTime":"5 weeks","previewFileId":"7de9742b-7451-4ad3-a1dd-869eff3d7b3f","createdByUserId":"ed2ff14b-7fbe-4b93-b249-ffc6d43aef18"}'

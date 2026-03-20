@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/417dff47-9306-4c5d-9658-d66776c92d3f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjA4LjIwMDcxNyIsInVzZXJfaWQiOiI2Zjg1ODQ0MC1jM2ZhLTQzYjUtYmY3OC1iZjA1MDI4MWQ0ODcifQ.3vfR9N7r-BcBIbjeYirpwaJVBmDq2SvviYFsof6lyzg' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development draw perform happy a federal adult system.","maxScore":99,"minScore":20,"description":"Theory exactly court if soldier. Model provide data most figure. Individual stock worker lot wish cup certain.\nWar picture tax say hundred purpose article scientist. Off white culture couple lay ago.","estimatedTime":"7 weeks"}'

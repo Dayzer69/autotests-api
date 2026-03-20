@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjA4Ljc5MDEwMiIsInVzZXJfaWQiOiIzNWMxOGI0ZS0yNTc3LTRkMGUtYjM1Ny02N2NhZDRjYWU2MWQifQ.dTgyloaeZcIXgGil2OQEfJ5oSqJDfXZJdURfM0JY4u0' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive when be perform sell.","maxScore":64,"minScore":19,"description":"Way certain group. Tv long society type director number. Draw he here total most.\nHold investment guess true next especially war. Trouble short themselves. Successful cultural get.","estimatedTime":"5 weeks","previewFileId":"dacbfda9-3555-4a6d-89cf-c7b81f3dbb36","createdByUserId":"35c18b4e-2577-4d0e-b357-67cad4cae61d"}'

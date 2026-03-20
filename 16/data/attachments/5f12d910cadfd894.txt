@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjExLjI5MTkzMCIsInVzZXJfaWQiOiI2YjA5MzY5My0xMDQwLTQ1NmQtOTBmMy02NDQxYTI0N2FiYmMifQ.D_3HH3b9jKTWcgvPIk3PGtj9IuAG4tGJZA_ZS2lfPQw' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement participant she know dream.","maxScore":58,"minScore":5,"description":"Music prove live success others significant music. Those good behavior his.","estimatedTime":"7 weeks","previewFileId":"b65c2d9c-0d6d-4ebd-a0b1-c4a7f9b15edd","createdByUserId":"6b093693-1040-456d-90f3-6441a247abbc"}'

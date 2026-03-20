@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjEwLjAyNzQ2OSIsInVzZXJfaWQiOiJkNmZiNTVkNC1lNmUyLTQ2YWQtYjBmNS0xZTM4NWY1YjhmNzMifQ.Yd9-YigDEUaXmC50gS_RMggkdV7x89toIZVhUAOaH_s' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Customer land fly near special blood say reality.","maxScore":82,"minScore":7,"description":"Assume prevent myself here apply. Surface service seek page improve team green. Speak bill better interesting remain television street.\nPattern anything we live wind. Support can that seem offer.","estimatedTime":"6 weeks","previewFileId":"d48ea6ca-4341-40f3-b4b8-2ce8f3e2977d","createdByUserId":"d6fb55d4-e6e2-46ad-b0f5-1e385f5b8f73"}'

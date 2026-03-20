@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjEwLjYxNDA1MCIsInVzZXJfaWQiOiJlZDJmZjE0Yi03ZmJlLTRiOTMtYjI0OS1mZmM2ZDQzYWVmMTgifQ.vEvCTe_0k8dzkPMIyN64PZKfRmfFyfO_izR6s_AD3F4' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View financial learn wrong.","courseId":"d2947482-ca7c-4339-8c8a-c1f6419262ce","maxScore":99,"minScore":7,"orderIndex":72,"description":"Ball crime right old hundred rest. Include score management like source admit perhaps. Now rise health site still service.","estimatedTime":"7 weeks"}'

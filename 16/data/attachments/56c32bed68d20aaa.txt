@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjA4Ljc5MDEwMiIsInVzZXJfaWQiOiIzNWMxOGI0ZS0yNTc3LTRkMGUtYjM1Ny02N2NhZDRjYWU2MWQifQ.dTgyloaeZcIXgGil2OQEfJ5oSqJDfXZJdURfM0JY4u0' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide thus Congress science face.","maxScore":79,"minScore":26,"description":"Share follow program above. People program probably task performance special size. Start fall rest especially reason.\nChurch model only fine see note. Start on after before wife agent certain.","estimatedTime":"6 weeks","previewFileId":"dacbfda9-3555-4a6d-89cf-c7b81f3dbb36","createdByUserId":"35c18b4e-2577-4d0e-b357-67cad4cae61d"}'

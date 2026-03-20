@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTE3VDA3OjUxOjIwLjg4NzkyMCIsInVzZXJfaWQiOiIzNjI2NWNhMy0zNjZlLTRjY2MtODZiOS1jYWZiMDBlYWI0ZmEifQ.fdrKmRYJBrbIUNEgpg8mv_bwvWR7HUx_RjbA8H_-gCg' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pm commercial middle fine travel treat oil forget.","courseId":"5892871c-6ca3-4c51-baac-91e53561895b","maxScore":71,"minScore":21,"orderIndex":52,"description":"Church may score agency page. But chance actually civil.\nWhole enjoy parent close your president land. Back several million address well full story.","estimatedTime":"5 weeks"}'

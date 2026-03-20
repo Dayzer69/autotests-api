@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjA4LjIwMDcxNyIsInVzZXJfaWQiOiI2Zjg1ODQ0MC1jM2ZhLTQzYjUtYmY3OC1iZjA1MDI4MWQ0ODcifQ.3vfR9N7r-BcBIbjeYirpwaJVBmDq2SvviYFsof6lyzg' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Method exactly person occur drop.","maxScore":77,"minScore":14,"description":"Control after what forget team fill side eat. Activity gas couple major suffer instead. Small lay hundred bring system purpose.","estimatedTime":"3 weeks","previewFileId":"5f80dad9-5a44-4ef9-be7e-bec661e674b2","createdByUserId":"6f858440-c3fa-43b5-bf78-bf050281d487"}'

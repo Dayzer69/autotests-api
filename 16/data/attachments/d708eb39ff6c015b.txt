@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjA5LjQ0MTIwOSIsInVzZXJfaWQiOiI5NWE0Yjk1ZS0xODUxLTQ1MzAtODEyNi0yNmI0ZjhlMDdiMTIifQ.7gmG2tU4wR8HPDnjrFWyrPtsSbop0WSvaYYbNL5wIQQ' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Realize story quickly discover through.","maxScore":82,"minScore":8,"description":"Political wear low cultural huge. Theory particular bar explain. Religious treat several decade think per section. Environmental admit address.","estimatedTime":"7 weeks","previewFileId":"8c3ae969-0ec6-4e22-9bea-0492f0b9d13f","createdByUserId":"95a4b95e-1851-4530-8126-26b4f8e07b12"}'

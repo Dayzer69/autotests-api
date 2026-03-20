@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDEyOjQ0OjExLjg3NDcxNyIsInVzZXJfaWQiOiJjOGMwOTI0ZC00NzQ1LTQxZmYtOTYxMi05YmMxMzM1Zjk3YzUifQ.7dEsm_W-0t1uJ4Qn00kndM3enpHZy8EOaurccYpficE' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Themselves who public discuss compare true enough.","courseId":"6b4f20a7-e9b5-484a-b78f-81545cf98275","maxScore":92,"minScore":27,"orderIndex":13,"description":"Tough institution others economic. Own his face information Republican approach. Six you other poor land note.\nReality rule throughout space interest. Find partner memory theory provide.","estimatedTime":"2 weeks"}'
