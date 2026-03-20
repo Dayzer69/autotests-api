@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjI1LjExOTMyMCIsInVzZXJfaWQiOiI4YmViODE2NS1hODJiLTRiODEtYmEzYi0yZjIxZGY3OTA4MDUifQ.efzS_0wf7fGxzLSOZxpO1NmeMXD2OOnpN_fQrtfXa1Y' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Them top per she much field federal.","courseId":"b59418b1-6d21-4894-b7f7-9807bad574f5","maxScore":60,"minScore":17,"orderIndex":90,"description":"Two goal identify night. Fight mention easy spring plan.\nPolitical use discussion family some dog. Agree couple follow themselves through assume.","estimatedTime":"1 weeks"}'

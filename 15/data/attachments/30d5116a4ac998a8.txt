@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjI2LjM3MDQyMiIsInVzZXJfaWQiOiIxZjRlNzM0Mi1jNDdhLTQ2MzYtYmZjMS0zNDMwMjY0MDg2YTAifQ.m7aZL6_x_7YeK-aR4Jbkk7o8PI9vwGeeJ8xf9N7xkPQ' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"West for interview which where exist.","maxScore":71,"minScore":9,"description":"Character apply foot anyone class. Total federal eat television conference respond. Role establish grow reality return.\nUpon value around act modern.","estimatedTime":"3 weeks","previewFileId":"2ce3838a-1e9e-4a7b-ad86-eb3b73910ba2","createdByUserId":"1f4e7342-c47a-4636-bfc1-3430264086a0"}'

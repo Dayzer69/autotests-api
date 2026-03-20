@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjIzLjI2NTQ1NCIsInVzZXJfaWQiOiI4NDdlYWE5My1kOGNhLTRjMTQtYTY3My02OGQ2YmZkNDEyNzAifQ.Cz_FtnfswJxoVc3820BFfW6Klmpc9z4d1dGATEU3WgA' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suggest record president enjoy.","maxScore":55,"minScore":25,"description":"Enter finally position.\nEach build through wind you one bring. Room even design would blue board market. Pull wide age special house than marriage.","estimatedTime":"1 weeks","previewFileId":"883285d1-7059-4453-9386-c2eab3280f52","createdByUserId":"847eaa93-d8ca-4c14-a673-68d6bfd41270"}'

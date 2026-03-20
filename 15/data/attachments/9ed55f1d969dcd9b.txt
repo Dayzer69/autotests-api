@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjI3LjM1OTQzOCIsInVzZXJfaWQiOiIzYWQ0ZWUxMC00NDI1LTRmNTItODM0YS1jNTY5YjUyYWU3MGMifQ.3gom9H2mSv-_Vjj43hyxTKJQFh_wUD9GmiAb8SjPTRo' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Itself total thing once now across section.","maxScore":84,"minScore":28,"description":"Fine reality level wear many leader. Bank them compare protect. Either watch such then forget.","estimatedTime":"9 weeks","previewFileId":"bb78842d-a97c-4388-a7c9-05691abd57cd","createdByUserId":"3ad4ee10-4425-4f52-834a-c569b52ae70c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjIzLjg5MjkxOCIsInVzZXJfaWQiOiJkOTM2N2I5MC0wZGY1LTQzNmMtODE3YS05MzA2MWNjMjdmOWUifQ.S547qYlo1lmpkzZN8oCH4KUjqUPelCoPqyBef6Elkg8' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among live all couple off.","maxScore":98,"minScore":9,"description":"Star soon woman commercial.\nCareer within require again have would cup method. General anyone natural.","estimatedTime":"7 weeks","previewFileId":"e1ee12e4-2a07-47fc-bb01-adc7d5d60e26","createdByUserId":"d9367b90-0df5-436c-817a-93061cc27f9e"}'

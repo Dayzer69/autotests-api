@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjI1LjExOTMyMCIsInVzZXJfaWQiOiI4YmViODE2NS1hODJiLTRiODEtYmEzYi0yZjIxZGY3OTA4MDUifQ.efzS_0wf7fGxzLSOZxpO1NmeMXD2OOnpN_fQrtfXa1Y' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue sit marriage card.","maxScore":96,"minScore":6,"description":"Benefit knowledge recent resource day. Such message drive rather activity arm.\nGame itself though born yard agree remain magazine. Line catch try rule could.","estimatedTime":"3 weeks","previewFileId":"cb60cf0d-c945-4974-be6d-e104c76f43fe","createdByUserId":"8beb8165-a82b-4b81-ba3b-2f21df790805"}'

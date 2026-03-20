@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ec066ff0-199a-455a-9edc-dab15e9c05ca' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjIzLjg5MjkxOCIsInVzZXJfaWQiOiJkOTM2N2I5MC0wZGY1LTQzNmMtODE3YS05MzA2MWNjMjdmOWUifQ.S547qYlo1lmpkzZN8oCH4KUjqUPelCoPqyBef6Elkg8' \
+  -H 'content-length: 174' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Value food decide own fill buy down.","maxScore":59,"minScore":16,"description":"Bed see laugh. Tree fact certain run ask community eat.","estimatedTime":"7 weeks"}'

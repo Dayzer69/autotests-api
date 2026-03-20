@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjI3LjYzNDg0MiIsInVzZXJfaWQiOiI4MTk4ZmY3YS03NjA0LTRkZGMtYjlkNy00NjhlYTQ3ODc5YzgifQ.Cky10T5Jx73XBT-BR77unTO2OZxKifoObirX6m4irsg' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Growth gun simply attack begin rock.","maxScore":86,"minScore":7,"description":"Thought financial today too become best certain.\nMr although benefit write air. Try source let common.","estimatedTime":"7 weeks","previewFileId":"1f6f4a38-e492-4581-a092-f260a975331a","createdByUserId":"8198ff7a-7604-4ddc-b9d7-468ea47879c8"}'

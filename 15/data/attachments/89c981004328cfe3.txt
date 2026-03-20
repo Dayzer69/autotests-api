@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/051a44a5-0034-43df-a64f-93cda298c1bc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjI1Ljc3NDQ5NyIsInVzZXJfaWQiOiJjODc5MGM4My01ZWRlLTRhYjYtOWM2Yy1iYTg3MTgzZDVjMzYifQ.2z3LUFcMDRE5m1zK0KiyXYnui9Oh_cA_8wa_6QLrt3Q' \
+  -H 'content-length: 282' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five will serve college rest.","maxScore":87,"minScore":25,"orderIndex":40,"description":"Wish should strong land alone specific. Show including wish option.\nDream whether federal doctor. Data campaign quickly newspaper rise already different.","estimatedTime":"4 weeks"}'

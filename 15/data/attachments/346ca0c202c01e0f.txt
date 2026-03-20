@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTIwVDExOjM0OjI3LjYzNDg0MiIsInVzZXJfaWQiOiI4MTk4ZmY3YS03NjA0LTRkZGMtYjlkNy00NjhlYTQ3ODc5YzgifQ.Cky10T5Jx73XBT-BR77unTO2OZxKifoObirX6m4irsg' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Father speech sit Democrat.","courseId":"bf70d635-d2ba-4ff5-aae0-7e2b274be998","maxScore":54,"minScore":28,"orderIndex":2,"description":"Common capital party move another. Rest authority group public pull mean enter. Seem spring speak enough.","estimatedTime":"5 weeks"}'
