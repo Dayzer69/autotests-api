@@ -26,6 +26,8 @@ class Settings(BaseSettings):
     allure_results_dir: DirectoryPath
     test_data: TestDataConfig
     http_client: HTTPClientConfig
+    swagger_coverage_services: str | None = None
+    swagger_coverage_html_report_file: str | None = None
 
     @classmethod
     def initialize(cls) -> Self:  # Возвращает экземпляр класса Settings
